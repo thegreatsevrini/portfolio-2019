@@ -29,26 +29,38 @@
 
   <!-- Add your site or application content here -->
   <header>
-    <h1 id="logo">sev welker</h1>
-    <nav>
-      <ul>
-        <li><a href="#">about</a></li>
-        <li><a href="#">work</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-    </nav>
+
+    <!-- Here's the bootstrap nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+<a class="navbar-brand" href="#">sev welker</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link active" href="#">about <span class="sr-only">(current)</span></a>
+    <a class="nav-item nav-link" href="#">work</a>
+    <a class="nav-item nav-link" href="#">contact</a>
+
+  </div>
+</div>
+</nav>
+    <!-- End the bootstrap nav -->
   </header>
   <body>
+    <div class="jumbotron">
+      <p class="intro">Hey there! I'm a web designer and developer who enjoys creating beautiful useful digital products.</p>
+    </div>
     <div class="container">
       <section id="about">
         <h2>about</h2>
-        <p class="intro">Hey there! I'm a web designer and developer who enjoys creating beautiful useful digital products.</p>
+
         <p>I went to college for music and since have taught myself to code with several online resources including <a href="">SkillCrush</a>, <a href="">LinkedIn Learning</a> (formerly Lynda.com), and <a href="">freeCodeCamp</a>. There are others but these are the main ones. </p>
         <p>This portfolio page is a constant evolving showcase of my skills and I will add projects as I complete them. </p>
 
 
           </ul>
-        </div>
+
 
       </section>
       <section id="work">
@@ -90,6 +102,7 @@
         </form>
       </section>
     </div>
+  </div> <!-- end .container -->
   </body>
   <footer>
     <p>&copy;Sev Welker - 2019</p>
